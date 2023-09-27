@@ -1,5 +1,5 @@
 # contact-us-page
-Contact page is a page builed to make user contact with you and build with html and css specific felx box and media quires and use google maps to make contact page avalible on all screens.
+Contact page is a page builed to make user contact with you and build with html and css specific felx box and media quires to make contact page avalible on all screens and use google maps.
 
 <br>
 
