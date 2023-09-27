@@ -1,0 +1,84 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500;600&family=Caveat:wght@400;600&family=Open+Sans:ital,wght@0,400;1,600&family=Poppins:ital,wght@0,400;0,600;0,800;1,400;1,500&family=Roboto:wght@100;300;500&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,700;0,800;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #ddd;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-us h2,
+.contact-us p {
+    margin: 0 1em;
+    text-align: center;
+}
+.contact-us h2 {
+    margin-top: 3em;
+}
+.contact-cont {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4em;
+    padding: 2em;
+}
+
+.contact-left {
+    width: 45%;
+}
+.contact-left iframe {
+    width: 100%;
+}
+
+.contact-right {
+    width: 45%;
+}
+.contact-right form ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-right form ul li input {
+    width: 100%;
+    padding: 1em;
+    border: 1px solid #969595;
+    outline: none;
+    border-radius: 2px;
+    margin-bottom: 1em;
+}
+.contact-right form ul li textarea {
+    width: 100%;
+    outline: none;
+    padding: 1em;
+}
+.contact-right form button {
+    margin-top: 1em;
+    padding: 1em;
+    color: #fff;
+    background-color: green;
+    border: none;
+    outline: none;
+}
+
+@media (max-width: 767px) {
+    .contact-cont {
+        flex-direction: column;
+    }
+    .contact-cont .contact-left {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    
+    .contact-right{
+        width: 100%;
+    }
+}
